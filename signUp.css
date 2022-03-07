@@ -1,0 +1,29 @@
+.signUp__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 10rem -14rem 10rem;
+    height: 57rem;
+    z-index: 1;
+    position: relative;
+    box-shadow: 2rem 5rem 10rem rgb(128 128 128 /30%);
+    background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f8f2 75%);
+}
+
+.signUp__left--item h2 {
+    font-size: 4rem;
+}
+
+.signUp__left--item p {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.signUp__btn {
+    padding: 1.5rem 5rem;
+    font-size: 1.8rem;
+}
+
+.signUp__right--item img {
+    width: 70rem;
+}

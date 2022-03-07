@@ -1,0 +1,70 @@
+#footer {
+    background: linear-gradient(111deg, #fff4e1, #ffffff);
+}
+
+.footer__wrapper {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20rem 0 5rem 0;
+}
+
+.footer__box {height: 25rem;flex: 30%;padding: 3rem;}
+
+.footer__box:nth-child(2), .footer__box:nth-child(3) {
+flex: 15%;
+}
+
+.footer__box h3 {
+margin-bottom: 2rem;
+}
+
+.footer__link li {
+    margin: 1.5rem 0;
+height: 2.5rem;
+}
+
+.footer__link li a {color: #000;position: relative;}
+
+
+.footer__link a::before {
+     background: var(--primary-color);
+     bottom: -4px;
+     content: "";
+     height: 2px;
+     right: 100%;
+     position: absolute;
+     left: 0;
+     -webkit-transition-duration: .3s;
+     transition-duration: .3s;
+     -webkit-transition-property: right;
+     transition-property: right;
+     -webkit-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+}
+.footer__link a:hover:before {
+    right: 0
+}
+
+.footer__social {
+display: flex;
+}
+
+.footer__social i {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    display: block;
+    border-radius: 50%;
+    border: 0.2rem solid #d57e00;
+    color: #d57e00;
+    margin: 1rem 0.5rem;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.footer__social i:hover {
+        border: 0.7rem solid #d57e00;
+        padding: 0.5rem;
+    box-shadow: 3rem 2.5rem 3rem 2rem rgb(128 128 128 / 10%) inset
+}
