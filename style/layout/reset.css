@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
 *,
 *::after,
 *::before {
@@ -15,7 +14,6 @@
     --accent-color: #d57d00;
     --light-color: #f7f7f7;
     --secondary-color: #515151;
-
     --border-raduis-tiny: 0.12rem;
     --border-raduis-xs: 0.25rem;
     --border-raduis-sm: 0.5rem;
@@ -24,14 +22,15 @@
     --border-raduis-xl: 2rem;
     --border-raduis-2xl: 2.5rem;
     --border-raduis-3xl: 3rem;
-
     --font-size-sm: 0.75rem;
     --font-size-md: 1rem;
     --font-size-lg: 1.25rem;
     --font-size-xl: 1.5rem;
 }
 
+
 /* px , rem , em, pt, percent */
+
 html {
     font-size: 62.5%;
     font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -42,6 +41,7 @@ body {
     font-size: 1.5rem;
     background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f8f2 75%);
     direction: ltr;
+    overflow-x: hidden;
 }
 
 button,

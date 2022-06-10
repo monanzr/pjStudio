@@ -4,6 +4,7 @@
 
 .hero__wrapper {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -43,4 +44,39 @@
 
 .hero__right--item {
     /* flex: 50% */
+}
+
+@media only screen and (max-width: 413px) {
+    .hero__left--item h1 {
+        font-size: 4rem!important;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+    }
+    .left--item__demo {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__right--item {
+        display: flex;
+        justify-content: center;
+    }
+    .hero__img {
+        width: 80%;
+        margin: 5rem 0;
+    }
+    .hero__left--item h1 {
+        font-size: 5rem;
+    }
+    .hero__left--item {
+        align-items: flex-start;
+    }
+    .hero__btn {
+        font-size: 1.5rem;
+        padding: 15px 20px;
+        margin: 0 1rem;
+    }
 }

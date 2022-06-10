@@ -27,3 +27,34 @@
 .signUp__right--item img {
     width: 70rem;
 }
+
+@media only screen and (max-width: 413px) {}
+
+@media only screen and (max-width: 576px) {
+    .signUp__wrapper {
+        margin: 0 0;
+    }
+    .signUp__right--item img {
+        width: 100%!important;
+    }
+    .signUp__wrapper {
+        padding: 2rem 1rem!important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .signUp__wrapper {
+        height: 60rem!important;
+        flex-wrap: wrap;
+        padding: 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .signUp__wrapper {
+        height: 40rem;
+    }
+    .signUp__right--item img {
+        width: 40rem;
+    }
+}
