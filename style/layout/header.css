@@ -64,6 +64,9 @@
         font-size: 18px;
         color: var(--light-color);
     }
+    .navSide__open {
+        display: block;
+    }
     .navSide {
         display: block;
         position: relative;
